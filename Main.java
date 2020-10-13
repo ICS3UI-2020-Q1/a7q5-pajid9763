@@ -20,7 +20,7 @@ public class Main {
    */
   public static void main(String[] args) {
     // store the method into a variable so it can be used
-    int first = firstDigit(-979);
+    int first = Math.abs(firstDigit(-979));
     // print the first digit to the screen
     System.out.println(first);
     
